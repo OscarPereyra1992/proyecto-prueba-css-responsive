@@ -1,0 +1,29 @@
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: grey;
+    padding: 15px;
+}
+
+
+.grid-container3 >div {
+    width: 25vw;
+    height: 50vh;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+   
+}
+
+.plano{
+    background-color: chocolate;
+}
+
+.gradient{
+    background: linear-gradient(to right, white , blue)
+}
+
+.image{
+    background-image:url(/assets/imagen-fondo.avif);
+}

@@ -1,0 +1,54 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background: #555;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar a:hover{
+    background-color: #1D5D9B;
+}
+
+.active{
+    background-color: #1D5D9B;
+}
+
+.responsive{
+    display: none;
+}
+
+i{
+    padding: 0 5px;
+}
+
+
+@media (max-width:768px) {
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
+
+.introduccion{
+    text-align: center;
+    margin: 0 15%;
+
+}
